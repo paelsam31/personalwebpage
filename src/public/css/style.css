@@ -1,0 +1,84 @@
+body{
+    display: block;
+    color: whitesmoke;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#presentacion{
+    display: block;
+    text-align: center;
+}
+
+#Bienvenido{
+    display: block;
+    margin: auto;
+}
+
+#proximo{
+    display: block;
+    text-align: center;
+}
+
+#nav_icon{
+    display: block;
+    margin-right: 20px;
+    width: 50px;
+    height: 60px;
+}
+
+
+    /*Iconos*/
+    /* Para centrar el bloque div */
+    #bloque {
+        margin-left: 650px;
+        width: 400px;
+    }
+
+.fa {
+    padding: 20px;
+    width: 50px; 
+    text-align: center;
+    text-decoration: none; 
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Facebook */
+  .fa-facebook {
+    display: block;
+    background: #3B5998;
+    color: black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    display: block;
+    background: #55ACEE;
+    color: black;
+  }
+
+  /* GitHub */
+  .fa-github {
+      display: block;
+      background: gray;
+      color: black;
+  }
+
+  /* Whatsapp */
+  .fa-whatsapp {
+      display: block;
+      background: green;
+      color: white;
+  }
+
+  /* Instagram */
+  .fa-instagram {
+      display: block;
+      background: black;
+      color: pink;
+  }
